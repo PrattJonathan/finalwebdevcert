@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "emoji", cursive;
+}
+
+body {
+  background: url("./ground_2.jpg");
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 4rem;
+}
+
+.title {
+  font-size: 8rem;
+}
+
+button {
+  cursor: pointer;
+  background: rgb(90, 82, 235);
+  border: none;
+  border-radius: 35px;
+  font-size: xx-large;
+  height: 70px;
+  max-width: 300px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
